@@ -1,0 +1,54 @@
+@media(max-width:768px){
+    h1{
+        font-size: 5vw;
+        line-height: 150%;
+    }
+}
+@media(max-width:529px){
+    h1{
+        font-size: 7vw;
+        line-height: 150%;
+    }
+    .statistics-box__content{
+        transform: scale(1);
+        padding: 16px 0 0 0;
+    }
+    .statistics-box__result{
+        flex-direction: column;
+    }
+    .statistics-box__content h2{
+        font-size: 4.5vw;
+        margin: 0 0 2vw 0;
+    }
+    .statistics-box__content p{
+        font-size: 3.5vw;
+    }
+    .test-box__content{
+        flex-direction: column;
+        justify-content: center;
+        gap: 16px;
+    }
+    .test-example{
+        font-size: 22px;
+    }
+    .test-box button{
+        flex-grow: 0;
+        width: 100%;
+    }
+    input{
+        width: 100%;
+    }
+}
+@media(max-width:375px){
+    h1{
+        font-size: 8vw;
+        line-height: 150%;
+    }
+    .statistics-box__content h2{
+        font-size: 6vw;
+        margin: 0 0 2vw 0;
+    }
+    .statistics-box__content p{
+        font-size: 5vw;
+    }
+}

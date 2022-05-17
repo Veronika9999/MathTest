@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/media.css">
+    <link href="https://fonts.googleapis.com/css2?family=Jura:wght@300&family=Libre+Baskerville:ital@1&family=Montserrat+Alternates:wght@300;700&family=PT+Serif&display=swap" rel="stylesheet">
+    <title>Math test</title>
+</head>
+<body>
+    <div class="game">
+        <h1>Математический тест</h1>
+        <div class="level">
+            <p>1. выбери уровень:</p>
+            <select name="" id="difficulty">
+                <option value="easy"> от 1-10</option>
+                <option value="middle"> от 11-100</option>
+                <option value="hard"> от 101-1000</option>
+            </select>
+        </div>
+        <p class="exercise">2. Получи задание:</p>
+        <div class="test-box">
+            <div class="test-box__content">
+                <span class="test-example"></span>
+                <input type="number" placeholder="Введите ответ">
+                <button class="submit">Ответить</button>
+                <p class="result-text">тест</p>
+            </div>
+            <button class="plus">+ Сложить +</button>
+            <button class="minus">- Вычесть -</button>
+            <button class="multiply">* Умножить *</button>
+            <button class="divide">/ Pазделить /</button>
+        </div>
+        <hr>
+        <div class="statistics-box">
+            <div class="statistics-box__content">
+                <h2>Статистика</h2>
+                <div class="statistics-box__result">
+                    <p>Правильные ответы: <span class="statistics-box__true"></span></p>
+                    <p>Неправильные ответы: <span class="statistics-box__false"></span></p>
+                </div>
+            </div>
+            <button class="statistics-show"><i class="fa-solid fa-square-poll-vertical"></i>
+                Статистика <i class="fa-solid fa-square-poll-vertical"></i>
+            </button>
+            <button class="statistics-reset"><i class="fa-solid fa-rotate-left"></i>
+                Сброс <i class="fa-solid fa-rotate-left"></i>
+            </button>
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/c6d3c641cf.js" crossorigin="anonymous"></script>
+    <script src="./js/script.js"></script>
+</body>
+</html>
